@@ -1,15 +1,15 @@
-ul {
+#navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     background-color: blue;
 }
 
-li {
+.navbar-item {
     display: inline;
 }
 
-li a {
+.navbar-link {
     display: inline-block;
     color: white;
     text-align: center;
