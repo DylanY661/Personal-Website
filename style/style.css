@@ -28,13 +28,27 @@ li:last-child {
 
 p {
     font-size: 24px;
-    text-align: center;
 }
 
 body {
     background-color: #61b0b7;
 }
 
-h1 {
-    text-align: center;
+.flex-container {
+    display: flex;
+    width: 1800px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#bio {
+    flex: 1;
+}
+
+#headshot {
+    flex: 1;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
 }
